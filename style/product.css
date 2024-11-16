@@ -204,9 +204,12 @@ section .container2{
         margin: auto;
         gap: 13px;
     }
+section .father .cart:hover{
+    box-shadow: var(--secodary-color) 0px 18px 50px -10px;
+}
 section .father .cart{
     width: calc((100% - 40px) / 3 );
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: var(--main-color) 0px 2px 8px 0px;
     flex-direction: column;
     height: 450px;
 
